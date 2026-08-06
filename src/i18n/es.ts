@@ -28,6 +28,7 @@ export const es: ToolContent = {
     paras: [
       'Esta herramienta abre un archivo .zip y lista todo lo que contiene —los archivos, las carpetas y sus tamaños— y luego te deja descargar cualquier archivo por separado, o todos juntos. El archivo se lee y se extrae en tu dispositivo; no hay subida ni ninguna app que instalar.',
       'Primero lee el índice que hay al final del archivo (el directorio central), así que la lista de archivos aparece sin descomprimir nada. Al descargar un archivo solo se descomprime esa entrada, de modo que abrir un archivo grande para sacar un solo elemento sigue siendo ligero. Las carpetas anidadas se muestran completas, y las entradas protegidas con contraseña se marcan como bloqueadas: esas se dejan a una herramienta unlock-zip específica en lugar de resolverlas a medias aquí.',
+      'Así ves el contenido de un archivo sin descargar ni instalar ningún programa: todo ocurre online, en tu propio navegador.',
     ],
   },
 

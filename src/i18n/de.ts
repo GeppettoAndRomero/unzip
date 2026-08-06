@@ -29,6 +29,7 @@ export const de: ToolContent = {
     paras: [
       'Dieses Tool öffnet ein .zip-Archiv und listet alles darin auf — die Dateien, die Ordner und ihre Größen — und lässt dich dann jede Datei einzeln oder alle zusammen herunterladen. Das Archiv wird auf deinem Gerät gelesen und entpackt; es gibt keinen Upload und keine App zu installieren.',
       'Zuerst wird das Verzeichnis am Ende des Archivs (die Central Directory) gelesen, sodass die Dateiliste erscheint, ohne dass etwas entpackt wird. Beim Herunterladen wird nur der jeweilige Eintrag dekomprimiert, sodass es leicht bleibt, aus einem großen Archiv eine einzelne Datei zu ziehen. Verschachtelte Ordner werden vollständig angezeigt, und passwortgeschützte Einträge werden als gesperrt markiert — die überlässt es einem eigenen unlock-zip-Tool, statt sie hier nur halb zu behandeln.',
+      'So siehst du den Inhalt eines Archivs, ohne es komplett zu entpacken: alles läuft online direkt im Browser, ganz ohne WinZip oder ein anderes Programm zu installieren.',
     ],
   },
 
